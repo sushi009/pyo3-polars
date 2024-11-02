@@ -1,3 +1,9 @@
+# Polars with extra features
+
+- Add back support for arrow and polars-arrow conversion removed in [here](https://github.com/pola-rs/polars/pull/19312/files)
+
+<br/>
+
 ## 1. Shared library plugins for Polars
 
 <a href="https://crates.io/crates/pyo3-polars">
