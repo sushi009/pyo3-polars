@@ -9,11 +9,11 @@ members = [
 ]
 
 [workspace.dependencies]
-polars = { git = "https://github.com/sushi009/polars", rev = "16a61f1a94d44a16bb629a5192a877b4109a58eb", default-features = false }
-polars-core = { git = "https://github.com/sushi009/polars", rev = "16a61f1a94d44a16bb629a5192a877b4109a58eb", default-features = false }
-polars-ffi = { git = "https://github.com/sushi009/polars", rev = "16a61f1a94d44a16bb629a5192a877b4109a58eb", default-features = false }
-polars-plan = { git = "https://github.com/sushi009/polars", rev = "16a61f1a94d44a16bb629a5192a877b4109a58eb", default-feautres = false }
-polars-lazy = { git = "https://github.com/sushi009/polars", rev = "16a61f1a94d44a16bb629a5192a877b4109a58eb", default-features = false }
+polars = { git = "https://github.com/sushi009/polars", rev = "55590fdff5af73c87e091cb0c309d8810aed989b", default-features = false }
+polars-core = { git = "https://github.com/sushi009/polars", rev = "55590fdff5af73c87e091cb0c309d8810aed989b", default-features = false }
+polars-ffi = { git = "https://github.com/sushi009/polars", rev = "55590fdff5af73c87e091cb0c309d8810aed989b", default-features = false }
+polars-plan = { git = "https://github.com/sushi009/polars", rev = "55590fdff5af73c87e091cb0c309d8810aed989b", default-feautres = false }
+polars-lazy = { git = "https://github.com/sushi009/polars", rev = "55590fdff5af73c87e091cb0c309d8810aed989b", default-features = false }
 
 [workspace.dependencies.arrow]
 package = "polars-arrow"
